@@ -1,7 +1,29 @@
 aid: payall
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payall.png
 name: Payall
-description: Payall is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Payall Payment Systems provides purpose-built banking infrastructure that
+  automates cross-border payments for regulated financial institutions. The
+  platform orchestrates the full international money-movement lifecycle across
+  originating banks, correspondent and clearing institutions, central banks, and
+  payment channels, automating sanctions screening, KYC/AML compliance, fraud and
+  risk management, FX, and settlement. Payall markets a lightweight, backward-
+  compatible technical integration and business-friendly APIs (plus bulk/Excel
+  upload) so banks, credit unions, EMIs, and other regulated institutions can
+  offer safe, profitable international transfers. Public developer documentation
+  and an open API specification are not published; the API surface at
+  api.payall.com is authentication-gated.
 url: https://raw.githubusercontent.com/api-evangelist/payall/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Cross-Border Payments
+- Banking Infrastructure
+- FinTech
+- Compliance
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://payall.com
+- type: Blog
+  url: https://payall.com/resources/blog/
+- type: Support
+  url: https://payall.com/contact-us/
+- type: About
+  url: https://payall.com/payalls-story/
+- type: PrivacyPolicy
+  url: https://payall.com/privacy-policy/
+- type: TermsOfService
+  url: https://payall.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/payall-payment-systems/
+- type: Twitter
+  url: https://twitter.com/payallps
+- type: DomainSecurity
+  url: security/payall-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
